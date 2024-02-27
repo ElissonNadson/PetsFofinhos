@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - meta tag primária
+  -->
+  <title>PetFofinhos - Alimentação para Pets de Alta Qualidade</title>
+  <meta name="title" content="Kitter - Alimentação para Pets de Alta Qualidade">
+  <meta name="description" content="Este é um modelo de eCommerce HTML feito por codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - link para CSS personalizado
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - link para fonte do Google
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bangers&family=Carter+One&family=Nunito+Sans:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - pré-carregar imagens
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #CABEÇALHO
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <button class="nav-toggle-btn" aria-label="alternar menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" aria-label="true" class="close-icon"></ion-icon>
+      </button>
+
+      <a href="#" class="logo">PetFofinhos</a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item"> <a href="#home" class="navbar-link" data-nav-link>Início</a> </li>
+
+          <li class="navbar-item">
+            <a href="#shop" class="navbar-link" data-nav-link>Loja</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>Coleções</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>Blogs</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>Contatos</a>
+          </li>
+
+        </ul>
+
+        <a href="#" class="navbar-action-btn">Entrar</a>
+      </nav>
+
+      
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERÓI
+      -->
+
+      <section class="section hero has-bg-image" id="home" aria-label="home"
+        style="background-image: url('./assets/images/hero-banner.jpg')">
+        <div class="container">
+
+          <h1 class="h1 hero-title">
+            <span class="span">Alimentação para Pets</span>
+            <span class="high-quality-text">de Alta Qualidade</span>
+
+          </h1>
+
+          <p class="hero-text">Desconto de até 40% hoje</p>
+
+          <a href="#" class="btn">Compre Agora</a>
+
+        </div>
+      </section>
+
+
+      <section class="section service" aria-label="service">
+        <div class="container">
+
+          <img src="./assets/images/service-image.png" width="122" height="136" loading="lazy" alt="" class="img">
+
+          <h2 class="h2 section-title">
+            <span class="span">O que seu pet precisa,</span> ele precisa.
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-icon-1.png" width="70" height="70" loading="lazy"
+                    alt="ícone de serviço">
+                </figure>
+
+                <h3 class="h3 card-title">Entrega Grátis no Mesmo Dia</h3>
+
+                <p class="card-text">
+                  Faça o pedido até às 11:00h da manhã para receber frete o frete hoje mesmo. Pedidos acima de R$ 200 hoje.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-icon-2.png" width="70" height="70" loading="lazy"
+                    alt="ícone de serviço">
+                </figure>
+
+                <h3 class="h3 card-title">Oferta de Indicação Especial</h3>
+
+                <p class="card-text">
+                  Compartilhe a alegria PetFofinhos com seus amigos! Indique um amigo e, quando ele fizer sua primeira compra, 
+                  vocês dois receberão um desconto de 20% em sua próxima compra. Quanto mais amigos você indicar, mais você economiza!
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-icon-3.png" width="70" height="70" loading="lazy"
+                    alt="ícone de serviço">
+                </figure>
+
+                <h3 class="h3 card-title">Pagamento Seguro</h3>
+
+                <p class="card-text">
+                  15% de desconto no seu primeiro pedido online de apartir de R$200. Disponível na maioria em toda Feira de santana. 
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-icon-4.png" width="70" height="70" loading="lazy"
+                    alt="ícone de serviço">
+                </figure>
+
+                <h3 class="h3 card-title">Pedidos acima de R$200</h3>
+
+                <p class="card-text">Receba um brinde exclusivo como nosso agradecimento pela sua compra!
+
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta has-bg-image" aria-label="cta" style="background-image: url('./assets/images/cta-bg.jpg')">
+        <div class="container">
+
+          <figure class="cta-banner">
+            <img src="./assets/images/cta-banner.png" width="900" height="660" loading="lazy" alt="gato" class="w-100">
+          </figure>
+
+          <div class="cta-content">
+
+            <h2 class="h2 section-title">Se o seu gato não gostar, nós trocamos para você!
+
+            </h2>
+
+            <p class="section-text">Na PetFofinhos, temos certeza de que seu gato vai adorar nossa comida. Mas se ele não gostar, garantimos a troca nos primeiros 5 dias após a compra.  </p>
+
+            <a href="#" class="btn">Saiba mais</a>
+
+          </div>
+
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="footer-top section">
+      <div class="container">
+    
+        <div class="footer-brand">
+    
+          <a href="#" class="logo">PetFofinhos</a>
+    
+          <p class="footer-text">
+            Se você tiver alguma dúvida, entre em contato conosco em <a href="mailto:support@gmail.com"
+              class="link"> nadsonnodachi@gmail.com</a>
+          </p>
+    
+          <ul class="contact-list">
+    
+            <li class="contact-item">
+              <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+    
+              <address class="address"> Rua antenor maximiniano 18               </address>
+            </li>
+    
+            <li class="contact-item">
+              <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+    
+              <a href="tel:+16234567891011" class="contact-link">(+55)75 9 9164-1174</a>
+            </li>
+    
+          </ul>
+    
+          <ul class="social-list">
+    
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+    
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+    
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+    
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+    
+          </ul>
+    
+        </div>
+    
+        <ul class="footer-list">
+    
+          <li>
+            <p class="footer-list-title">Corporativo</p>
+          </li>
+    
+          <li>
+            <a href="#" class="footer-link">Carreiras</a>
+          </li>
+    
+          <li>
+            <a href="#" class="footer-link">Sobre Nós</a>
+          </li>
+    
+          <li>
+            <a href="#" class="footer-link">Contate-nos</a>
+          </li>
+    
+          <li>
+            <a href="#" class="footer-link">Perguntas Frequentes</a>
+          </li>
+    
+          <li>
+            <a href="#" class="footer-link">Fornecedores</a>
+          </li>
+    
+          <li>
+            <a href="#" class="footer-link">Programa de Afiliados</a>
+          </li>
+    
+        </ul>
+    
+        <ul class="footer-list">
+    
+          <li>
+            <p class="footer-list-title">Informações</p>
+          </li>
+    
+          <li>
+            <a href="#" class="footer-link">Loja Online</a>
+          </li>
+    
+          <li>
+            <a href="#" class="footer-link">Política de Privacidade</a>
+          </li>
+    
+          <li>
+            <a href="#" class="footer-link">Política de Reembolso</a>
+          </li>
+    
+          <li>
+            <a href="#" class="footer-link">Política de Envio</a>
+          </li>
+    
+          <li>
+            <a href="#" class="footer-link">Termos de Serviço</a>
+          </li>
+    
+          <li>
+            <a href="#" class="footer-link">Rastrear Pedido</a>
+          </li>
+    
+        </ul>
+    
+        <ul class="footer-list">
+    
+          <li>
+            <p class="footer-list-title">Serviços</p>
+          </li>
+    
+          <li>
+            <a href="#" class="footer-link">Tosa</a>
+          </li>
+    
+          <li>
+            <a href="#" class="footer-link">Treinamento Positivo de Cães</a>
+          </li>
+    
+          <li>
+            <a href="#" class="footer-link">Serviços Veterinários</a>
+          </li>
+    
+          <li>
+            <a href="#" class="footer-link">Seguro Petco</a>
+          </li>
+    
+          <li>
+            <a href="#" class="footer-link">Adoção de Animais de Estimação</a>
+          </li>
+    
+          <li>
+            <a href="#" class="footer-link">Centro de Recursos</a>
+          </li>
+    
+        </ul>
+    
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="container">
+    
+        <p class="copyright">
+          &copy; 2024 Criado por Nadson Nodachi <a href="#" class="copyright-link">Feira de santana Bahia.</a>
+        </p>
+    
+      </div>
+    </div>
+    
+
+</body>
+
+</html>
